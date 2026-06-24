@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 UPSTREAM_URL = "http://147.135.212.197/crapi/had/viewstats"
 
-MY_TOKEN = os.environ.get('MY_TOKEN', 'hYuwoskkkaw28kssx')
-UPSTREAM_TOKEN = os.environ.get('UPSTREAM_TOKEN', 'Qk5YQUVBUzRkeJVjR4CId0GDlFVBc2Bia4CFU0qAWHRbZZaGXmGHUw==`)
+MY_TOKEN = os.environ.get('MY_TOKEN', 'hYuwoskkkaw28kssx'
+UPSTREAM_TOKEN = os.environ.get('UPSTREAM_TOKEN', 'Qk5YQUVBUzRkeJVjR4CId0GDlFVBc2Bia4CFU0qAWHRbZZaGXmGHUw==')
 
 @app.route('/crapi/had/viewstats', methods=['GET'])
 def viewstats():
