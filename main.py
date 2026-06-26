@@ -5,10 +5,10 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-UPSTREAM_URL = "http://147.135.212.197/crapi/had/viewstats"
+UPSTREAM_URL = "http://51.77.216.195/crapi/mait/viewstats"
 
 MY_TOKEN = os.environ.get('MY_TOKEN', 'hYuwoskkkaw28kssx'
-UPSTREAM_TOKEN = os.environ.get('UPSTREAM_TOKEN', 'Qk5YQUVBUzRkeJVjR4CId0GDlFVBc2Bia4CFU0qAWHRbZZaGXmGHUw==')
+UPSTREAM_TOKEN = os.environ.get('UPSTREAM_TOKEN', 'Q1ZQR0RBUzRqVliGhmmJanl0YmViaWtnZIOAh4pxi3NZgph0U4GLZg==')
 
 @app.route('/crapi/had/viewstats', methods=['GET'])
 def viewstats():
